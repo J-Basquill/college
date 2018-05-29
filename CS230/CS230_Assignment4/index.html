@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS230 Assignment 4</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="checkUser()">
+  <h1 id="demo">Welcome to Yoga </h1>
+  <form id = "quiz1" action="quizE.php" style="display: none">
+    <input type="submit" value="English Quz" />
+  </form>
+  <form id = "quiz2" action="quizS.php" style="display: none">
+    <input type="submit" value="Sanskrit Quz" />
+  </form>
+  <button id="change" value ="Change User" onclick="changeUser()">Change User</button>
+  <input id="username" type="text" />
+
+
+<script>
+  const node = document.getElementById("username");
+  node.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        setCookie("user",event.target.value,5);
+        checkUser();
+    }
+  });
+
+  function checkUser(){
+    if(getCookie("user")==""){
+      document.getElementById("quiz1").style.display="none";
+      document.getElementById("quiz2").style.display="none";
+      document.getElementById("username").style.display="block";
+      document.getElementById("change").style.display="none";
+    }else{
+      document.getElementById("quiz1").style.display="block";
+      document.getElementById("quiz2").style.display="block";
+      document.getElementById("username").style.display="none";
+      document.getElementById("change").style.display="block";
+      document.getElementById("demo").innerText ="Welcome to Yoga "+getCookie("user");
+    }
+  }
+
+  function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function changeUser(){
+  document.cookie = "user=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+  checkUser();
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+table{
+    width: 100%;
+    font-family: sans-serif;
+}
+table, th{
+    border: 1px solid black;
+}
+table, th,td {
+    border-collapse: collapse;}
+
+td {
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+th {
+    text-align: center;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.name {
+    text-align: left;
+}
+
+.score, .result {
+    text-align: right;
+}
+.fail{
+    text-align: right;
+    background-color: red;
+    color: white;
+}
+.miss{
+    text-align: right;
+    background-color: yellow;
+}
+button {
+    border-radius: 30px;
+    border: solid #55AAFF 3px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+div{
+    text-align: center;
+}
+
+#text{
+    display: none;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+#missing{
+    border: solid orange 5px;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.highlight{
+    border: solid chartreuse 5px;
+}
+.highlight2{
+    border: solid coral 5px;
+}

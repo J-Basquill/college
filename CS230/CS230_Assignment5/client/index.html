@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS230 Assignment 5</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body onload="retrieve()">
+
+    <div>
+        <h1>CS230 Assignment 5</h1>
+        <h2>Student Name: James Paul Basquill</h2>
+        <h3>Student ID: 17186285</h3>
+        <button id="btnCreate">Create Database</button>
+        <button id="btnDrop">Drop Table</button></br>
+        <span  id = "test"></span>
+
+
+        <div id="cDiv" class="db">
+            <h4>Create Database Entry</h4>
+            Name: <input type="text" id="Cname" name="name" required><br>
+            URL: <input type="text" id="Curl" name="url" required><br>
+            Description: <input type="text" id="Cdescription" name="description" required><br>
+            <button id="btnInsert">Create Entry</button><br />
+            <span id="createSpan"></span>
+        </div>
+
+        <div id="rDiv" class="db">
+          <h4>Retrieve Database</h4>
+          Retrieve record via id: <input type="number" id="idRetrieve" required><button id="btnIdRetrieve">Retrieve</button><br>
+
+          Retrieve record via Name: <input type="text" id="nameRetrieve" required><button id="btnNameRetrieve">Retrieve</button><br>
+
+          <span  id = "retrieveSpan"></span>
+        </div>
+
+        <div id="uDiv" class="db">
+          <h4>Update Database Entry</h4>
+            Update Name of id: <input type="number" id="idUpdateName" required class="input"> with:  <input type="text" id="newName" required><button id="btnUpdateName">Update</button><br>
+
+            Update URL of id: <input type="number" id="idUpdateUrl" required class="input"> with:  <input type="text" id="newUrl" required><button id="btnUpdateUrl">Update</button><br>
+
+            Update Description of id: <input type="number" id="idUpdateDesc" required class="input"> with:  <input type="text" id="newDesc" required><button id="btnUpdateDesc">Update</button><br>
+            <span id="updateSpan"></span>
+        </div>
+
+        <div id="dDiv" class="db">
+          <h4>Delete Database Entry</h4>
+          Select id for the row you wish to delete:  <input type="number" id="Did"><br>
+          <button id="btnDelete">Delete Entry</button>
+          <span id="deleteSpan"></span>
+        </div>
+    </div>
+
+    <div>
+      With thanks to <a href="https://www.w3schools.com/default.asp">W3 Schools</a>, <a href="https://trinitytuts.com/restful-web-services-with-php-mysqli/">Aneh Thakur</a> and the multitude of Stack Overflow reponses I had to dig through until I realised that I needed to index the JSON file I was posting.
+    </div>
+</body>
+</html>

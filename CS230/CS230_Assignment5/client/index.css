@@ -1,0 +1,47 @@
+.db{
+  border: 5px solid red;
+  background: #ff704d;
+  text: #ffffff;
+}
+
+
+
+h4{
+  font-size: 26px;
+  font-family: serif;
+  margin-top: 0px;
+  margin-bottom: : 10px;
+}
+
+table{
+  width: 100%;
+  font-family: sans-serif;
+}
+table, th{
+    border: 5px solid black;
+}
+table, th,td {
+    border-collapse: collapse;}
+
+td {
+    border: 1px solid black;
+    font-size: 16px;
+    background: #a6ff4d;
+}
+
+th {
+  text-align: center;
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+input  {
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #e4e815;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}

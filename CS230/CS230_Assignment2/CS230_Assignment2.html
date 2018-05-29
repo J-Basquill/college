@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CS230 Assignment 2</title>
+
+    <link rel="stylesheet" href="CS230_Assignment2.css">
+    <script src="CS230_Assignment2.js"></script>
+</head>
+<body  onload="init()">
+<h1 id="demo">CS230 Assignment 2</h1>
+<h2>Student Name: James Paul Basquill</h2>
+<h3>Student ID: 17186285</h3>
+<div>
+<table id="table">
+<tr>
+<th>Name</th>
+<th>ID</th>
+<th>Assignment 1</th>
+<th>Final Grade</th>
+</tr>
+<tr>
+<td class="name">-</td>
+<td class="name">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+</table><br />
+    <button onclick="addRow()">Add Row</button>
+    <button onclick="addCol()">Add Assignment</button>
+    <button onclick="setSizeCookie()">Store size</button>
+    <button onclick="restoreTable()">Restore table size</button>
+    <!--<button onclick="deleteSelectRow()">Delete Highlighted Row</button>-->
+    <button onclick="rando()">Randomize</button>
+    <!--<button onclick="generateCSV()">CSV</button><br/>--><br/><br>
+    <span id="missing">Total Missed Assignments: </span><br/>
+    <textarea id="text" rows="12" cols="75"></textarea>
+</div>
+<script>
+    table.addEventListener("input", function(){
+        calc();
+        missingAssign();
+        generateCSV();
+    });
+
+</script>
+</body>
+</html>

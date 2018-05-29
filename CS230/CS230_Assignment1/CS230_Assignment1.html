@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CS230 Assignment 1</title>
+    <link rel="stylesheet" href="CS230_Assignment1.css">
+    <script src="CS230_Assignment1.js"></script>
+  </head>
+  <body  onload="init()">
+    <h1 id="demo">CS230 Assignment 1</h1>
+    <h2>Student Name: James Paul Basquill</h2>
+    <h3>Student ID: 17186285</h3>
+    <div>
+<table id="table">
+<tr>
+<th>Name</th>
+<th>ID</th>
+<th>Assignment 1</th>
+<th>Assignment 2</th>
+<th>Assignment 3</th>
+<th>Assignment 4</th>
+<th>Assignment 5</th>
+<th>Final Grade</th>
+</tr>
+<tr>
+<td class="name">Basquill, James</td>
+<td class="name">20156</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+<tr>
+<td class="name">Beleren, Jace</td>
+<td class="name">65281</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+<tr>
+<td class="name">Bolas, Nicol</td>
+<td class="name">75831</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+<tr>
+<td class="name">Goldmane, Ajani</td>
+<td class="name">45862</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+<tr>
+<td class="name">Jura, Gideon</td>
+<td class="name">63574</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+<tr>
+<td class="name">Nalaar, Chandra</td>
+<td class="name">20147</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+<tr>
+<td class="name">Rai, Saheeli</td>
+<td class="name">758965</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+<tr>
+<td class="name">Revane, Nissa</td>
+<td class="name">42537</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+<tr>
+<td class="name">Vess, Liliana</td>
+<td class="name">98745</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+<tr>
+<td class="name">Wildspeaker, Garruk</td>
+<td class="name">56321</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="score">-</td>
+<td class="result" id="res">-</td>
+</tr>
+
+
+</table><br />
+      <!--<button onclick="calc()">Calculate</button>-->
+      <button onclick="rando()">Randomize</button>
+      <!--<button onclick="generateCSV()">CSV</button>--><br/><br/>
+      <span id="missing">Total Missed Assignments: </span><br/>
+      <textarea id="text" rows="12" cols="75"></textarea>
+    </div>
+    <script>
+      var check = document.getElementById("table");
+      check.addEventListener("input", function(){
+        calc();
+        missingAssign();
+        generateCSV();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=print
+comment1.target=void\ printArray(java.lang.String[])
+comment1.text=public\ static\ void\ swap(int\ a,\ int\ b){\r\n\ \ \ \ \ \ \ int\ temp\ \=\ array[a];\r\n\ \ \ \ \ \ \ array[a]\ \=\ array[b];\r\n\ \ \ \ \ \ \ array[b]\ \=\ temp;\r\n}
+numComments=2

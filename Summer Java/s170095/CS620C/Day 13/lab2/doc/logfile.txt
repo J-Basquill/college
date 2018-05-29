@@ -1,0 +1,50 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.8.0_144\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;X:\CS620C\Day 13\lab2
+-d
+X:\CS620C\Day 13\lab2\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+X:\CS620C\Day 13\lab2\GeneralCalculator.java
+<---- end of javadoc command ---->
+Loading source file X:\CS620C\Day 13\lab2\GeneralCalculator.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_144
+Building tree for all the packages and classes...
+Generating X:\CS620C\Day 13\lab2\doc\GeneralCalculator.html...
+X:\CS620C\Day 13\lab2\GeneralCalculator.java:32: warning - @param argument "a," is not a parameter name.
+X:\CS620C\Day 13\lab2\GeneralCalculator.java:32: warning - @param argument "b," is not a parameter name.
+X:\CS620C\Day 13\lab2\GeneralCalculator.java:68: warning - @param argument "a," is not a parameter name.
+X:\CS620C\Day 13\lab2\GeneralCalculator.java:68: warning - @param argument "b," is not a parameter name.
+X:\CS620C\Day 13\lab2\GeneralCalculator.java:56: warning - @param argument "a," is not a parameter name.
+X:\CS620C\Day 13\lab2\GeneralCalculator.java:56: warning - @param argument "b," is not a parameter name.
+X:\CS620C\Day 13\lab2\GeneralCalculator.java:44: warning - @param argument "a," is not a parameter name.
+X:\CS620C\Day 13\lab2\GeneralCalculator.java:44: warning - @param argument "b," is not a parameter name.
+Generating X:\CS620C\Day 13\lab2\doc\package-frame.html...
+Generating X:\CS620C\Day 13\lab2\doc\package-summary.html...
+Generating X:\CS620C\Day 13\lab2\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating X:\CS620C\Day 13\lab2\doc\allclasses-frame.html...
+Generating X:\CS620C\Day 13\lab2\doc\allclasses-noframe.html...
+Generating X:\CS620C\Day 13\lab2\doc\index.html...
+Generating X:\CS620C\Day 13\lab2\doc\stylesheet.css...
+8 warnings

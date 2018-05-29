@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=l
+comment0.target=Square(int)
+comment0.text=\r\n\ The\ class\ constructor\ for\ Square\ \r\n\ @param\ l,\ the\ input\ for\ length\r\n
+comment1.params=
+comment1.target=Square()
+comment1.text=\r\n\ The\ default\ constructor\ \r\n
+comment2.params=
+comment2.target=int\ getLength()
+comment2.text=\r\n\ \ Getter\ method\ for\ length\r\n\ \ @return\ Returns\ current\ length\ of\ the\ square\r\n
+comment3.params=l
+comment3.target=void\ setLength(int)
+comment3.text=\r\n\ \ Setter\ method\ for\ length\r\n\ \ @param\ l,\ the\ updated\ length\ for\ Square\r\n
+comment4.params=
+comment4.target=int\ getArea()
+comment4.text=\r\n\ \ Method\ to\ calculate\ area\ with\ current\ value\ for\ length\r\n
+comment5.params=
+comment5.target=int\ getPerimeter()
+comment5.text=\r\n\ \ Method\ to\ calculate\ perimeter\ with\ current\ value\ for\ length\r\n
+numComments=6

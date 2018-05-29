@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=toPrint
+comment1.target=void\ print2D(int[][])
+comment1.text=\r\n\ Method\ to\ print\ a\ 2dArray\r\n\ @param\ toPrint,\ formal\ parameter\ for\ 2dArray\ to\ be\ printed\r\n
+comment2.params=array\ add
+comment2.target=void\ addValueToArray(int[][],\ int)
+comment2.text=\r\n\ Method\ to\ add\ to\ each\ index\ in\ a\ 2dArray\r\n\ @param\ array,\ array\ to\ which\ add\ is\ to\ be\ added\ to\ each\ index\r\n\ @param\ add,\ integer\ to\ be\ added\ to\ the\ indices\ in\ array\r\n
+comment3.params=copy\ paste
+comment3.target=void\ copyContents(int[][],\ int[][])
+comment3.text=\r\n\ Method\ to\ copy\ one\ 2dArrays\ indices\ to\ another\r\n\ @param\ copy,\ 2DArray\ to\ be\ copied\r\n\ @param\ paste,\ 2DArray\ for\ the\ values\ to\ be\ assigned\ to\r\n
+numComments=4

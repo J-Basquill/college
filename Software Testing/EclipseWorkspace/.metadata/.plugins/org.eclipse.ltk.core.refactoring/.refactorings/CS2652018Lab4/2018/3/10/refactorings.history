@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;CS265B_Lab_Week06_Sale.java&apos; to &apos;CS2652018Lab4/src/cs265&apos;&#x0D;&#x0A;- Original project: &apos;CS2652018Lab4&apos;&#x0D;&#x0A;- Destination element: &apos;CS2652018Lab4/src/cs265&apos;&#x0D;&#x0A;- Original element: &apos;CS265B_Lab_Week06_Sale.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;cs265" element1="/src&lt;{CS265B_Lab_Week06_Sale.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1520604821366" units="1" version="1.0"/>
+</session>

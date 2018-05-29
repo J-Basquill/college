@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=r
+comment0.target=BasicCircle(int)
+comment0.text=\r\n\ Circle\ constructor\ \:\ \r\n\ @param\ r\ the\ radius\ of\ the\ circle\r\n
+comment1.params=
+comment1.target=int\ getRadius()
+comment1.text=\r\n\ This\ provides\ the\ radius\ of\ the\ circle\r\n\ @return\ the\ radius\ of\ the\ circle.\r\n
+comment2.params=num
+comment2.target=void\ setRadius(int)
+comment2.text=\r\n\ This\ sets\ the\ radius\ of\ the\ circle\r\n\ @param\ num\ the\ new\ value\ for\ the\ radius\ of\ the\ circle.\r\n
+numComments=3

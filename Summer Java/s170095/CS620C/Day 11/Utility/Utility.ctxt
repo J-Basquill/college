@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=a
+comment1.target=int\ square(int)
+comment1.text=\r\n\ Method\ to\ square\ the\ input\r\n@param\ a,\ Number\ to\ be\ squared\r\n@return\ Returns\ the\ value\ of\ the\ input\ squared\r\n
+comment2.params=input
+comment2.target=int\ timesTwo(int)
+comment2.text=\r\n\ Method\ to\ double\ the\ input\r\n@param\ input,\ Number\ to\ be\ doubled\r\n@return\ Returns\ doubled\ input\r\n
+comment3.params=a\ b\ c
+comment3.target=int\ addThreeNumbers(int,\ int,\ int)
+comment3.text=\r\n\ Method\ to\ sum\ three\ numbers\r\n@param\ a,b,c,\ the\ numbers\ to\ be\ added\ together\r\n@return\ Returns\ the\ sum\ of\ the\ parameters\r\n
+comment4.params=a\ strg
+comment4.target=void\ printManyTimes(int,\ java.lang.String)
+comment4.text=\ Method\ to\ print\ a\ string\ a\ particular\ number\ of\ times\r\n@param\ a,\ the\ number\ of\ times\ to\ print\r\n@param\ strg,\ the\ string\ to\ be\ printed\r\n
+comment5.params=a\ b
+comment5.target=double\ getAverage(double,\ double)
+comment6.params=a
+comment6.target=int\ mySigma(int)
+comment7.params=array\ x
+comment7.target=boolean\ searchArray(int[],\ int)
+comment8.params=array
+comment8.target=int\ addUpArray(int[])
+numComments=9

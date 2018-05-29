@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=r
+comment0.target=Circle(double)
+comment0.text=This\ is\ the\ class\ constructor\r\n\ @param\ The\ radius\ of\ the\ circle\ to\ be\ created\r\n
+comment1.params=
+comment1.target=double\ getRadius()
+comment1.text=Method\ to\ discover\ the\ radius\ of\ the\ circle\r\n\ @return\ returns\ the\ current\ radius\ of\ the\ circle\r\n
+comment2.params=r
+comment2.target=void\ setRadius(double)
+comment2.text=Method\ to\ set\ a\ new\ radius\ for\ the\ circle\r\n\ @param\ The\ revised\ radius\ for\ the\ circle\r\n
+comment3.params=
+comment3.target=double\ area()
+comment3.text=Method\ to\ calculate\ the\ area\ \r\n\ @return\ Returns\ the\ area\ of\ the\ circle\ from\ the\ current\ radius\r\n
+comment4.params=
+comment4.target=double\ circumference()
+comment4.text=Method\ to\ calculate\ the\ circumference\ of\ the\ circle\r\n\ @return\ Returns\ the\ circumference\ as\ calculated\ from\ the\ current\ radius\r\n
+numComments=5

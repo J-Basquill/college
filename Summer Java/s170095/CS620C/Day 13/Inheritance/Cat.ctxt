@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=catName\ catAge\ catWeight
+comment0.target=Cat(java.lang.String,\ int,\ double)
+comment0.text=\ Class\ constructor\ method\ which\ is\ called\ when\ this\ \r\n\ class\ template\ is\ being\ used\ to\ create\ Cat\ objects.\r\n\ \r\n\ @param\ A\ string\ representation\ of\ the\ cat\ name\r\n\ @param\ An\ int\ to\ store\ the\ age\ in\ months\ of\ the\ cat\r\n\ @param\ A\ double\ to\ store\ the\ cat\ weight\ in\ Kilos\r\n
+comment1.params=
+comment1.target=void\ printName()
+comment1.text=\r\n\ Prints\ the\ name\ of\ the\ cat\ to\ the\ standard\ input.\r\n\ This\ is\ not\ a\ normal\ method\ you\ would\ include\ in\ a\ class\r\n\ definition.\ \r\n
+comment2.params=
+comment2.target=void\ printAge()
+comment3.params=
+comment3.target=void\ printWeight()
+comment4.params=
+comment4.target=void\ speak()
+comment5.params=
+comment5.target=int\ getAge()
+comment5.text=\r\n\ Returns\ the\ age\ of\ the\ cat\ in\ months.\r\n\ @return\ the\ cat's\ age\ in\ whole\ number\ of\ months.\r\n\ @version\ 1.2\r\n
+comment6.params=catAge
+comment6.target=void\ setAge(int)
+comment6.text=\r\n\ Sets\ the\ age\ of\ the\ cat\ in\ months.\r\n\ @param\ the\ cat's\ age\ in\ whole\ number\ of\ months.\r\n\ @version\ 1.2\r\n
+numComments=7

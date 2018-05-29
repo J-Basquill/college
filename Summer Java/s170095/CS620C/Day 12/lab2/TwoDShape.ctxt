@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TwoDShape()
+comment0.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ TwoDShape\r\n
+comment1.params=a
+comment1.target=TwoDShape(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TwoDShape\r\n
+comment2.params=
+comment2.target=java.lang.String\ getShapeType()
+comment2.text=\r\n\ Getter\ method\ for\ shapeType\r\n\ @return\ \ \ \ \ The\ shape\ type\r\n
+comment3.params=a
+comment3.target=void\ setShapeType(java.lang.String)
+comment3.text=\r\n\ Setter\ method\ for\ shapeType\r\n\ @param\ a,\ the\ new\ shapeType\r\n
+numComments=4

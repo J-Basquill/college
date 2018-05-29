@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=toSearch
+comment1.target=int\ findLargest(int[])
+comment1.text=\r\n\ Method\ to\ find\ the\ largest\ value\ in\ an\ array\r\n\ @param\ toSearch\ the\ array\ to\ be\ searched\r\n\ @return\ Returns\ the\ largest\ value\ found\ in\ the\ array\r\n
+comment2.params=toSearch
+comment2.target=int\ findSmallest(int[])
+comment2.text=\r\n\ Method\ to\ find\ the\ smallest\ value\ in\ an\ array\r\n\ @param\ toSearch\ the\ array\ to\ be\ searched\r\n\ @return\ Returns\ the\ smallest\ value\ found\ in\ the\ array\r\n
+comment3.params=toSearch
+comment3.target=int[]\ findLargestandSmallest(int[])
+comment3.text=\r\n\ Method\ to\ fins\ both\ the\ smallest\ and\ largest\ value\ in\ an\ array\ and\ output\ them\ in\ another\ array\r\n\ @param\ toSearch\ the\ array\ to\ search\r\n\ @return\ Returns\ an\ array\ with\ two\ indices,\ the\ first\ which\ is\ the\ smallest\ value\ found,\ the\ second\ which\ is\ the\ largest\ value\ found\r\n
+comment4.params=toSearch
+comment4.target=int[][]\ findLargestandSmallest2D(int[])
+comment4.text=\r\n\ Method\ to\ finds\ both\ the\ smallest\ and\ largest\ value\ in\ an\ array\ and\ output\ them\ in\ a\ 2D\ array\r\n\ @param\ toSearch\ the\ array\ to\ search\r\n\ @return\ Returns\ a\ 2D\ array\ with\ two\ indices,\ the\ first\ which\ is\ the\ smallest\ value\ found,\ the\ second\ which\ is\ the\ largest\ value\ found\r\n
+numComments=5

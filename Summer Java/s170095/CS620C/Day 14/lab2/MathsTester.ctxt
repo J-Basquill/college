@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=a\ b
+comment1.target=int\ toPowerOf(int,\ int)
+comment1.text=\r\n\ Method\ to\ find\ the\ power\ of\ different\ integers\r\n\ @param\ a\ first\ integer\ to\ find\ the\ power\ of\ b\r\n\ @param\ b\ integer\ to\ determine\ times\ a\ is\ multiplied\ by\ itself\r\n\ @return\ Returns\ result\ of\ calculation\r\n
+comment2.params=toPrint
+comment2.target=void\ print2D(int[][])
+numComments=3

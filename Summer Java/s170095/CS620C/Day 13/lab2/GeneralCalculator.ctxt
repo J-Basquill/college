@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=a\ b
+comment1.target=int\ addTwoNumbers(int,\ int)
+comment1.text=\r\n\ Method\ to\ add\ two\ integer\ together\r\n\ @param\ a,\ first\ integer\ to\ be\ added\r\n\ @param\ b,\ second\ integer\ to\ be\ added\r\n\ @return\ Returns\ the\ sum\ of\ the\ integers\r\n
+comment2.params=a\ b
+comment2.target=int\ subtractTwoNumbers(int,\ int)
+comment2.text=\r\n\ Method\ to\ subtract\ one\ integer\ from\ another\r\n\ @param\ a,\ first\ integer\r\n\ @param\ b,\ integer\ to\ be\ subtracted\ from\ the\ first\r\n\ @return\ Returns\ the\ result\ of\ the\ subtraction\r\n
+comment3.params=a\ b
+comment3.target=int\ multiplyTwoNumbers(int,\ int)
+comment3.text=\r\n\ Method\ to\ multiply\ two\ integer\r\n\ @param\ a,\ the\ first\ integer\r\n\ @param\ b,\ the\ second\ integer\r\n\ @return\ Returns\ the\ product\ of\ the\ two\ integers\r\n
+comment4.params=a\ b
+comment4.target=int\ calculateModbyTen(int,\ int)
+comment4.text=\r\n\ Method\ to\ calculate\ the\ mod\ of\ two\ integers\ and\ multiply\ it\ by\ 10\r\n\ @param\ a,\ the\ first\ integer\r\n\ @param\ b,\ the\ integer\ to\ divide\ by\ for\ the\ modulus\r\n\ @return\ Returns\ to\ vaule\ of\ the\ mod*10\r\n
+numComments=5

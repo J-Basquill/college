@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=toPrint
+comment1.target=void\ printArray(double[])
+comment1.text=\r\n\ Method\ to\ print\ an\ array\r\n\ @param\ toPrint,\ the\ method\ to\ be\ printed\r\n
+comment2.params=toCheck\ lookFor
+comment2.target=int\ checkArray(double[],\ double)
+comment2.text=\r\n\ Method\ to\ check\ an\ array\ for\ an\ integer\ and\ return\ how\ many\ times\ it\ appears\r\n\ @param\ toCheck,\ the\ array\ to\ be\ investigated\r\n\ @param\ lookFor,\ the\ double\ we\ wish\ to\ look\ for\r\n\ @return\ Returns\ the\ amount\ of\ times\ lookFor\ appears\r\n
+numComments=3
